@@ -8,7 +8,7 @@ class Person
   def initialize(job)
     @job = job
   end
-  def job
-    @job
+  def job=(job)
+    @job = job
   end
 end
